@@ -1,25 +1,20 @@
 <template>
-  <div class="h-[388px] w-[360px] mr-5">
-    <div class="mb-4">
+  <div class="w-[740px] h-[132px] flex gap-x-4">
+    <div>
       <BaseIcon
         mode="image"
         :icon="`images/${images}`"
-        :width="360"
-        :height="280"
+        :width="170"
+        :height="132"
       />
     </div>
-    <div>
-      <h4 class="text-gray-900 font-bold text-2xl">{{ title }}</h4>
-      <p class="text-gray-700 font-medium text-lg self-stretch">
-        {{ description }}
-      </p>
-    </div>
+    <BaseTextCardArticel :title="title" :description="description" :date="date"/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'BaseCards',
+  name: 'BaseSideCards',
   props: {
     title: {
       type: String,
@@ -33,6 +28,12 @@ export default {
       type: String,
       default: '',
     },
+    date: {
+      type: String,
+      default: '',
+    },
   },
 }
 </script>
+
+<style></style>

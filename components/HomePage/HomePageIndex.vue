@@ -4,6 +4,8 @@
     <HomePageHeader />
     <HomePageFindMe />
     <HomePageArticel />
+    <HomePageSideProjects />
+    <HomePageRecentWriting class="mb-[65px]"/>
     <LayoutsFooter />
   </div>
 </template>
