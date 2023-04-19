@@ -1,5 +1,7 @@
-<template >
-    <LayoutsIndex/>
+<template>
+  <div>
+    <HomePageIndex />
+  </div>
 </template>
 
 <script>

@@ -29,6 +29,6 @@
 
 <script>
 export default {
-  name: 'LayoutsHeader',
+  name: 'HomePageHeader',
 }
 </script>

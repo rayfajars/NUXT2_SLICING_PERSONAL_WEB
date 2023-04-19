@@ -20,6 +20,6 @@
 
 <script>
 export default {
-  name: 'LayoutsFindMe',
+  name: 'HomePageFindMe',
 }
 </script>
