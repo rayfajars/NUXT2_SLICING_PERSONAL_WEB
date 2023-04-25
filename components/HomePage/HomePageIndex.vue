@@ -5,7 +5,7 @@
     <HomePageFindMe />
     <HomePageArticel />
     <HomePageSideProjects />
-    <HomePageRecentWriting class="mb-[65px]"/>
+    <HomePageRecentWriting/>
     <LayoutsFooter />
   </div>
 </template>

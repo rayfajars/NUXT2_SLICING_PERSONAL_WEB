@@ -1,14 +1,17 @@
 <template>
-  <div class="w-[740px] h-[132px] flex gap-x-4">
+  <div class="md:w-[740px] w-full md-h-[132px] h-full flex gap-x-4 flex-col md:flex-row gap-y-10">
     <div>
       <BaseIcon
         mode="image"
         :icon="`images/${images}`"
-        :width="170"
-        :height="132"
+        class="md:!w-[170px] !h-[132px] !w-[327px]"
       />
     </div>
-    <BaseTextCardArticel :title="title" :description="description" :date="date"/>
+    <BaseTextCardArticel
+      :title="title"
+      :description="description"
+      :date="date"
+    />
   </div>
 </template>
 

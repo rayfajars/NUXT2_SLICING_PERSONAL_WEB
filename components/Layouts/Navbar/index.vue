@@ -51,7 +51,7 @@
           </ul>
         </nav>
 
-        <div class="hidden md:flex items-center gap-8">
+        <div class="hidden md:flex items-center gap-x-12">
           <a
             href="#"
             class="text-gray-900 hover:text-gray-800 transition duration-150 ease-in-out"

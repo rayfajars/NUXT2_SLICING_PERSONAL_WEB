@@ -1,12 +1,11 @@
 <template>
-  <div>
 
 
     <div
-      class="bg-black w-full h-[80px] flex items-center justify-center md:justify-start"
+      class="bg-black w-full md:h-[80px] h-[104px] flex items-center justify-center md:justify-start"
     >
       <div
-        class="mx-auto md:m-auto flex flex-col md:flex-row md:items-center md:gap-x-16 gap-y-4"
+        class="mx-auto md:m-auto flex flex-col md:flex-row md:items-center md:gap-x-16 gap-y-4 py-5"
       >
         <h5 class="text-white font-bold text-lg md:text-xl text-center">
           Find me across the internet:
@@ -33,7 +32,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
